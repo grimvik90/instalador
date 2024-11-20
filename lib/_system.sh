@@ -403,7 +403,8 @@ system_pm2_install() {
   sleep 2
 
   sudo su - root <<EOF
-  npm install -g pm2
+  npm install -g yarn
+  yarn global add pm2
 
 EOF
 
